@@ -1,0 +1,110 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>9 segundos de paz</title>
+    <meta name="description" content="Lavadero de Ciria (Soria)" />
+    <meta name="author" content="Nuria Rita Sebastián Cisneros" />
+    <meta name="keywords" content="ciria,soria,lavadero" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css' />
+    
+<style>
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Codrops Header Style */
+.codrops-top {
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+.codrops-top a {
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    color: #333;
+    display: inline-block;
+    text-decoration: none;
+}
+.codrops-top a:hover {
+    background: rgba(255,255,255,0.4);
+}
+.codrops-top span.right{
+    float: right;
+}
+.codrops-top span.right a{
+    float: left;
+    display: block;
+}
+/* End Codrops Header Style */
+
+.twitter-share-button {
+width: 100px !important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div class="video-container">
+  
+  <video autoplay loop="true" width="1280" height="720" poster="img/lavadero-ciria1" onclick="this.paused ? this.play() : this.pause();" id="vid">
+    <source type="video/mp4" src="vid/lavadero-ciria.mp4">
+  </video>
+
+<script>
+    document.getElementById('vid').play();
+</script>
+  
+  <div class="codrops-top">
+<a href="#">#</a>
+        <div class="clr"></div>
+    </div
+  
+</div>
+</body>
+</html>
